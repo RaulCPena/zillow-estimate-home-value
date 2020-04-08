@@ -25,6 +25,9 @@
 
 # Project Deliverables
 
+- [ ] Predict values of single unit properties using data acquired during the months of May and June 2017
+- [x] Identify what states and counties the selected properties are in
+- [x] Determine the distribution of tax rates by county
 - [ ] A report (in the form of a presentation, both verbal and through slides)
 - [ ] Create a github repository that will provide a walkthrough of the pipeline along with all the neccessary .py files to reproduce the model
 	- the model will be reproducible with the creation of your own `env.py` file
@@ -32,17 +35,17 @@
 # The Pipeline
 
 #### Project Planning and README
-- [ ] brainstorm ideas, hypotheses related to how variables might impact or relate to each other, both within independent variables anbd between the independent variables and the dependent variable. 
-- [ ] have a detailed `README.md`
+- [x] brainstorm ideas, hypotheses related to how variables might impact or relate to each other, both within independent variables anbd between the independent variables and the dependent variable. 
+- [x] have a detailed `README.md`
 
 #### Acquire:
-- [ ] create a dataframe ready to prepare
-- [ ] `acquire.py` will be able to reproduce gathering data from SQL
+- [x] create a dataframe ready to prepare
+- [x] `acquire.py` will be able to reproduce gathering data from SQL
 #### Prep:
-- [ ] create dataset ready to be analyzed
-- [ ] use what we learned to plot distributions of individual variables and identify any outliers and if needed plan out how to handle them.
+- [x] create dataset ready to be analyzed
+- [x] use what we learned to plot distributions of individual variables and identify any outliers and if needed plan out how to handle them.
 #### Split and Scale:
-- [ ] train, test, and scale our two dataframes using our `split_scale.py`, 
+- [x] train, test, and scale our two dataframes using our `split_scale.py`, 
 #### Data Exploration:
 - [ ] run at least 1 t-test and 1 correlation test(more if needed)
 - [ ] visualize as many combinations of variables
@@ -51,8 +54,8 @@
 
 #### Modeling & Evaluation:
 - [ ] develop a regression model that performs better than a baseline.
-- [ ] evaluate a baseline model
-- [ ] show how the given model performs better than the baseline
+- [x] evaluate a baseline model
+- [x] show how the given model performs better than the baseline
 - [ ] create a `model.py` file that will have the functions to fit, predict and evaluate the model
 
 Your notebook will contain various algorithms and/or hyperparameters tried, along with the evaluation code and results, before settling on the final algorithm.
