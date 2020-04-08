@@ -1,5 +1,5 @@
 # Estimate Home Value
-
+# Slide Presentation Link <- insert link later
 #### Background:
 
 - email containing information on each properties location was lost by Zach :anger:
@@ -48,10 +48,6 @@
 - [ ] visualize as many combinations of variables
 - [ ] identify which independent variables are correlated with the dependent
 - [ ] summarize takaways and conclusions
-#### Feature Selection:
-- [ ] have the dataframe with the features to be used to build the model
-- [ ] have we chosen all the features needed that will be helpful
-- [ ] use `feature_selection.py` to run whatever functions that will create the dataframe that contains all the best features that will be used to model the data
 
 #### Modeling & Evaluation:
 - [ ] develop a regression model that performs better than a baseline.
@@ -65,3 +61,24 @@ Be sure and evaluate your model using the standard techniques:
 - plotting the residuals
 - computing the evaluation metric (SSE, RMSE, and/or MSE)
 - comparing to baseline, plotting ![\y](https://render.githubusercontent.com/render/math?math=%5Cy) by ![\bar{y}](https://render.githubusercontent.com/render/math?math=%5Cbar%7By%7D)
+# Hypothesis
+![\boldsymbol{H_0}](https://render.githubusercontent.com/render/math?math=%5Cboldsymbol%7BH_0%7D) a homes square feet, bedroom count, and bathroom count are not drivers in a homes value
+
+![\boldsymbol{H_a}](https://render.githubusercontent.com/render/math?math=%5Cboldsymbol%7BH_a%7D) a homes square feet, bedroom count, and bathroom count are not drivers in a homes value
+
+
+
+
+#### Optional Feature Selection:
+> - [ ] have the dataframe with the features to be used to build the model
+> - [ ] have we chosen all the features needed that will be helpful
+> - [ ] use `feature_selection.py` to run whatever functions that will create the dataframe that contains all the best features that will be used to model the data
+# What can we conclude from the findings:
+- [ ] will add later
+- [ ] will add later
+- [ ] will add later
+- [ ] will add later
+# How to Recreate The Project
+- [ ] This repo will have all the files needed to replicate the notebook
+
+## **Note:** You will need to create your own `env.py` file to access the database
