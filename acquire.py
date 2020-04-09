@@ -11,6 +11,7 @@ def get_db_url(db_name):
 def get_zillow_data_from_sql():
     query = '''
     SELECT
+    prop.parcelid,
     bathroomcnt AS bathrooms,
     bedroomcnt AS bedrooms,
     calculatedfinishedsquarefeet AS square_feet,
