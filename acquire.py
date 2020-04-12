@@ -33,3 +33,37 @@ def get_zillow_data_from_sql():
     '''
     df = pd.read_sql(query, get_db_url('zillow'))
     return df
+
+
+def tax_rates_6037():
+    query = '''
+    SELECT taxamount/taxvaluedollarcnt as tax_rate_6037, fips
+           FROM properties_2017
+           JOIN predictions_2017 using(parcelid)
+           WHERE (propertylandusetypeid = 261) and (transactiondate BETWEEN '2017-05-01' and '2017-06-30') and fips = 6037
+    '''
+    df = pd.read_sql(query, get_db_url('zillow'))
+
+    return df
+
+def tax_rates_6059():
+    query = '''
+    SELECT taxamount/taxvaluedollarcnt as tax_rate_6059, fips
+           FROM properties_2017
+           JOIN predictions_2017 using(parcelid)
+           WHERE (propertylandusetypeid = 261) and (transactiondate BETWEEN '2017-05-01' and '2017-06-30') and fips = 6059
+    '''
+    df = pd.read_sql(query, get_db_url('zillow'))
+
+    return df
+
+def tax_rates_6111():
+    query = '''
+    SELECT taxamount/taxvaluedollarcnt as tax_rate_6111, fips
+           FROM properties_2017
+           JOIN predictions_2017 using(parcelid)
+           WHERE (propertylandusetypeid = 261) and (transactiondate BETWEEN '2017-05-01' and '2017-06-30') and fips = 6111
+    '''
+    df = pd.read_sql(query, get_db_url('zillow'))
+
+    return df
