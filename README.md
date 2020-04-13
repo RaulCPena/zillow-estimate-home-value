@@ -56,15 +56,15 @@ Be sure and evaluate your model using the standard techniques:
 # Data Dictionary
 | variables  | count  | datatype |
 |---|---|---|
-| parcelid  |   | int64  |
-| bathrooms  |   | float64  |
-| bedrooms  |   | float64  |
-| square_feet  |   | float64  |
-| fips_number |   | float64  |
-| propertylandusetypeid  |   | int64  |
-| propertylandusedesc  |   | object  |
-|  home_value |   | float64  |
-| tax_amount  |   | float64  |
+| parcelid  | 15036  | int64  |
+| bathrooms  | 15036  | float64  |
+| bedrooms  | 15036  | float64  |
+| square_feet  | 15036  | float64  |
+| fips_number | 15036  | float64  |
+| propertylandusetypeid  | 15036  | int64  |
+| propertylandusedesc  | 15036 | object  |
+|  home_value | 15036  | float64  |
+| tax_amount  | 15036  | float64  |
 | dtype: object  |   |   |
 
 # What can we conclude from the findings:
